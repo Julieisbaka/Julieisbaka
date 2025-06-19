@@ -1,4 +1,9 @@
-# [MIT License](https://opensource.org/license/mit/)
+---
+layout: default
+title: License
+---
+
+## [MIT License](https://opensource.org/license/mit/)
 
 Copyright (©) $2025$ Julie - Mathman
 

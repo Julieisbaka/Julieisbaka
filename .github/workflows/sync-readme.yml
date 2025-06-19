@@ -1,0 +1,26 @@
+name: Sync README to index.md for GitHub Pages
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  sync-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Copy README.md to index.md with Jekyll front matter
+        run: |
+          FRONTMATTER='---\nlayout: default\ntitle: Home\n---\n'
+          tail -n +1 README.md > temp_readme.md
+          echo -e "$FRONTMATTER$(cat temp_readme.md)" > index.md
+          rm temp_readme.md
+      - name: Commit and push if index.md changed
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add index.md
+          git diff --cached --quiet || git commit -m 'Sync README.md to index.md [automated]'
+          git push
