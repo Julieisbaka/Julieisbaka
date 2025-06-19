@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v4
       - name: Copy README.md to index.md with Jekyll front matter
         run: |
-          FRONTMATTER='---\nlayout: default\ntitle: Home\n---\n'
+          FRONTMATTER='---\nlayout: default\ntitle: Home\n---\n\n'
           tail -n +1 README.md > temp_readme.md
           echo -e "$FRONTMATTER$(cat temp_readme.md)" > index.md
           rm temp_readme.md
