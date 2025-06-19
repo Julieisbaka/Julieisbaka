@@ -1,5 +1,6 @@
 # Site settings
 title: JulieISBaka
+baseurl: "/Julieisbaka"
 
 # Navigation structure
 nav:
