@@ -2,7 +2,7 @@
 
 - 👋 Hi, I’m @Julieisbaka
 - 👀 I’m interested in AI and ML
-- 🌱 I’m currently learning C#
+- 🌱 I’m currently learning Rust
 - 💞️ I’m looking to collaborate on anything
 - 📫 <Casperschorr06@gmail.com>
 - 😄 Pronouns: He/Him
