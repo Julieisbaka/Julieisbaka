@@ -1,4 +1,6 @@
 name: Sync README to index.md for GitHub Pages
+permissions:
+  contents: write
 
 on:
   push:
