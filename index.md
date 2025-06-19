@@ -2,6 +2,7 @@
 layout: default
 title: Home
 ---
+
 [![wakatime](https://wakatime.com/badge/user/c37e3ffc-6f9e-4580-896c-a5384b348c2f.svg)](https://wakatime.com/@c37e3ffc-6f9e-4580-896c-a5384b348c2f)
 
 I like math. I like to code.
