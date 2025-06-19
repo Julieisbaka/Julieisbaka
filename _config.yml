@@ -17,3 +17,6 @@ nav:
 
 exclude:
   - README.md
+
+plugins:
+  - jekyll-spaceship
