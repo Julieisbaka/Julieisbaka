@@ -4,12 +4,12 @@ title: JulieISBaka
 # Navigation structure
 nav:
   - title: Home
-    url: /JulieISBaka
+    url: /Julieisbaka
   - title: Code of Conduct
-    url: /CODE_OF_CONDUCT.html
+    url: /Julieisbaka/CODE_OF_CONDUCT.html
   - title: Contributing
-    url: /CONTRIBUTING.html
+    url: /Julieisbaka/CONTRIBUTING.html
   - title: License
-    url: /LICENSE.html
+    url: /Julieisbaka/LICENSE.html
   - title: Security
-    url: /SECURITY.html
+    url: /Julieisbaka/SECURITY.html
