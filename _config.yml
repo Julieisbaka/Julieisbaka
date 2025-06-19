@@ -5,12 +5,15 @@ baseurl: "/Julieisbaka"
 # Navigation structure
 nav:
   - title: Home
-    url: "{{ site.baseurl }}"
+    url: "/"
   - title: Code of Conduct
-    url: "{{ site.baseurl }}/CODE_OF_CONDUCT.html"
+    url: "/CODE_OF_CONDUCT.html"
   - title: Contributing
-    url: "{{ site.baseurl }}/CONTRIBUTING.html"
+    url: "/CONTRIBUTING.html"
   - title: License
-    url: "{{ site.baseurl }}/LICENSE.html"
+    url: "/LICENSE.html"
   - title: Security
-    url: "{{ site.baseurl }}/SECURITY.html"
+    url: "/SECURITY.html"
+
+exclude:
+  - README.md
