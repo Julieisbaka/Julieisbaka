@@ -6,10 +6,10 @@ nav:
   - title: Home
     url: /
   - title: Code of Conduct
-    url: /CODE_OF_CONDUCT.md
+    url: /CODE_OF_CONDUCT.html
   - title: Contributing
-    url: /CONTRIBUTING.md
+    url: /CONTRIBUTING.html
   - title: License
-    url: /LICENSE.md
+    url: /LICENSE.html
   - title: Security
-    url: /SECURITY.md
+    url: /SECURITY.html
