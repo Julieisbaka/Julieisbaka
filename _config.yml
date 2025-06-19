@@ -1,0 +1,15 @@
+# Site settings
+title: JulieISBaka
+
+# Navigation structure
+nav:
+  - title: Home
+    url: /
+  - title: Code of Conduct
+    url: /CODE_OF_CONDUCT.md
+  - title: Contributing
+    url: /CONTRIBUTING.md
+  - title: License
+    url: /LICENSE.md
+  - title: Security
+    url: /SECURITY.md
