@@ -4,7 +4,7 @@
 - 👀 I’m interested in AI and ML
 - 🌱 I’m currently learning C#
 - 💞️ I’m looking to collaborate on anything
-- 📫 Casperschorr06@gmail.com
+- 📫 <Casperschorr06@gmail.com>
 - 😄 Pronouns: He/Him
 - ⚡ Fun fact: Math is the best thing ever!
 
