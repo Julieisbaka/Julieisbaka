@@ -1,3 +1,8 @@
+---
+layout: default
+title: JulieISBaka's Profile
+---
+
 [![wakatime](https://wakatime.com/badge/user/c37e3ffc-6f9e-4580-896c-a5384b348c2f.svg)](https://wakatime.com/@c37e3ffc-6f9e-4580-896c-a5384b348c2f)
 
 - 👋 Hi, I’m @Julieisbaka
