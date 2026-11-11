@@ -12,8 +12,4 @@ I like math. I like to code.
 - 😄 Pronouns: He/Him
 - ⚡ Fun fact: Math is the best thing ever!
 
-<!---
-JulieISBaka/JulieISBaka is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
 ![Profile icon](Profile.png)
