@@ -13,3 +13,14 @@ I like math. I like to code.
 - ⚡ Fun fact: Math is the best thing ever!
 
 ![Profile icon](Profile.png)
+
+## Website
+
+The home and projects pages link to [Tagline](https://julieisbaka.github.io/Tagline).
+The standalone [404 page](404.html) handles missing pages on GitHub Pages and
+links back to the home page at `https://julieisbaka.dev/`. It has no external
+assets, so it also works for missing URLs in nested directories.
+
+The [Pages workflow](.github/workflows/deploy-pages.yml) publishes the website,
+including `404.html`, on pushes to `main` or manual runs. Enable **Settings >
+Pages > Source > GitHub Actions** before deploying.
