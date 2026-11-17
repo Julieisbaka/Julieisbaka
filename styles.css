@@ -2,9 +2,9 @@
   color-scheme: light;
   --paper: #f6f5f0;
   --ink: #242720;
-  --muted: #65685e;
-  --line: #d9dbd1;
-  --accent: #456540;
+  --muted: #626a78;
+  --line: #d4dce6;
+  --accent: #45658a;
 }
 
 * {
@@ -93,20 +93,11 @@ a:focus-visible {
 }
 
 .navigation a:not([aria-current]):hover {
-  background: #e6e8df;
-}
-
-.nav-count {
-  font: 10px "Courier New", monospace;
-  opacity: .8;
+  background: #e5eaf1;
 }
 
 .header-link {
   font-size: 14px;
-}
-
-.header-link span {
-  margin-left: 12px;
 }
 
 .hero {
@@ -128,15 +119,6 @@ a:focus-visible {
   align-items: center;
   gap: 10px;
   margin: 0 0 28px;
-}
-
-.status-dot {
-  width: 7px;
-  height: 7px;
-  flex-shrink: 0;
-  border-radius: 50%;
-  background: var(--accent);
-  box-shadow: 0 0 0 4px #e5e9dd;
 }
 
 h1 {
@@ -191,11 +173,6 @@ h1 {
   font-size: 14px;
 }
 
-.text-link span {
-  display: inline-block;
-  margin-left: 10px;
-}
-
 .text-link:hover,
 .header-link:hover,
 .site-footer a:hover {
@@ -214,13 +191,12 @@ h1 {
   height: 365px;
   margin: 0;
   padding: 22px;
-  background: #e5e9dd;
-  border: 1px solid #d5dacd;
+  background: #e5eaf1;
+  border: 1px solid #d2dbe7;
   border-radius: 5px;
 }
 
-.artwork-top,
-.artwork-index {
+.artwork-top {
   font: 10px "Courier New", monospace;
   letter-spacing: 1px;
 }
@@ -230,10 +206,6 @@ h1 {
   justify-content: space-between;
   align-items: center;
   z-index: 1;
-}
-
-.artwork-top> :last-child {
-  font-size: 24px;
 }
 
 .artwork img {
@@ -267,10 +239,6 @@ h1 {
 .about-strip p {
   margin: 0;
   font-size: 14px;
-}
-
-.about-strip p span {
-  margin-left: 20px;
 }
 
 .about-strip>div {
@@ -316,15 +284,7 @@ h2 {
   padding: 36px;
   border: 1px solid var(--line);
   border-radius: 5px;
-  background: #eeeee7;
-}
-
-.project-number {
-  align-self: flex-start;
-  margin-top: 6px;
-  color: var(--muted);
-  font: 10px "Courier New", monospace;
-  letter-spacing: 1px;
+  background: #e9edf3;
 }
 
 .featured-copy h3 {
@@ -332,10 +292,6 @@ h2 {
   font-size: 36px;
   font-weight: 500;
   letter-spacing: -1.5px;
-}
-
-.small-period {
-  color: var(--accent);
 }
 
 .featured-copy p {
@@ -349,24 +305,6 @@ h2 {
   margin-left: auto;
   color: var(--muted);
   font: 12px "Courier New", monospace;
-}
-
-.round-arrow {
-  display: grid;
-  place-items: center;
-  width: 48px;
-  height: 48px;
-  flex-shrink: 0;
-  border: 1px solid #babfb0;
-  border-radius: 50%;
-  font-size: 25px;
-  transition: background .15s, color .15s;
-}
-
-.featured-project:hover .round-arrow,
-.project-card:hover .round-arrow {
-  background: var(--ink);
-  color: var(--paper);
 }
 
 .featured-project:hover,
@@ -434,33 +372,22 @@ h2 {
   justify-content: space-between;
   min-height: 320px;
   padding: 28px;
-  background: #d8ddca;
+  background: #d5dfeb;
   background-image: linear-gradient(#ffffff30 1px, transparent 1px), linear-gradient(90deg, #ffffff30 1px, transparent 1px);
   background-size: 40px 40px;
 }
 
-.preview-meta,
 .preview-bottom {
   display: flex;
-  justify-content: space-between;
-  gap: 16px;
   font: 10px "Courier New", monospace;
   letter-spacing: 1.5px;
 }
 
-.tagline-art {
+.project-art {
   align-self: center;
   font-size: clamp(64px, 10vw, 116px);
   letter-spacing: -7px;
   font-weight: 700;
-}
-
-.tagline-art>span {
-  color: var(--accent);
-}
-
-.preview-bottom> :last-child {
-  font-size: 24px;
 }
 
 .project-card-body {
@@ -496,11 +423,6 @@ h2 {
   align-items: flex-start;
   gap: 22px;
   padding: 35px 0 0;
-}
-
-.spark {
-  color: var(--accent);
-  font-size: 35px;
 }
 
 .more-to-come h3 {
@@ -667,17 +589,8 @@ h2 {
     gap: 18px;
   }
 
-  .project-number {
-    width: 100%;
-  }
-
   .featured-copy h3 {
     font-size: 32px;
-  }
-
-  .round-arrow {
-    width: 42px;
-    height: 42px;
   }
 
   .site-footer {
@@ -703,13 +616,12 @@ h2 {
     padding: 20px;
   }
 
-  .preview-meta,
   .preview-bottom {
     font-size: 8px;
     letter-spacing: 1px;
   }
 
-  .tagline-art {
+  .project-art {
     letter-spacing: -4px;
   }
 
