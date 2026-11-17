@@ -383,7 +383,7 @@ h2 {
   letter-spacing: 1.5px;
 }
 
-.tagline-art {
+.project-art {
   align-self: center;
   font-size: clamp(64px, 10vw, 116px);
   letter-spacing: -7px;
@@ -621,7 +621,7 @@ h2 {
     letter-spacing: 1px;
   }
 
-  .tagline-art {
+  .project-art {
     letter-spacing: -4px;
   }
 

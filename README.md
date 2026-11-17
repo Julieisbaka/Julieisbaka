@@ -16,7 +16,8 @@ I like math. I like to code.
 
 ## Website
 
-The home and projects pages link to [Tagline](https://tagline.julieisbaka.dev).
+The home and projects pages link to [Tagline](https://tagline.julieisbaka.dev)
+and [Humanmark](https://humanmark.julieisbaka.dev).
 The standalone [404 page](404.html) handles missing pages on GitHub Pages and
 links back to the home page at `https://julieisbaka.dev/`. It has no external
 assets, so it also works for missing URLs in nested directories.
